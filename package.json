@@ -1,0 +1,26 @@
+{
+  "name": "autharization-project",
+  "version": "1.0.0",
+  "description": "user authentication and autharization",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakeshreda/Authantication.git"
+  },
+  "author": "Rakesh Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakeshreda/Authantication/issues"
+  },
+  "homepage": "https://github.com/rakeshreda/Authantication#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1",
+    "nodemon": "^2.0.19",
+    "validator": "^13.7.0"
+  }
+}
