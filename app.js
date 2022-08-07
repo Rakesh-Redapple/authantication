@@ -1,7 +1,10 @@
 const express=require("express");
 const userRouter=require("./routes/userRoute");
+const dotenv=require("dotenv");
 require("./routes/db");
 const app=express();
+
+dotenv.config({"path":"./config.env"});
 
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
