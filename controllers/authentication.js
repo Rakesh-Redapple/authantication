@@ -58,3 +58,8 @@ exports.login = async (req, res, next) => {
     }
   }
 };
+
+exports.getAllUser= async (req,res,next)=>{
+  const allUserDetails= await User.find();
+  res.json({code:200,data:{allUserDetails},message:"Successfully got all user Details"});
+}
